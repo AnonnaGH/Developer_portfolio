@@ -55,6 +55,7 @@ padding: 18px 35px;
     align-items: center;
 }
 
+
 .banner-title{
     font-weight: 700;
     font-size: 85px;
@@ -72,6 +73,9 @@ padding: 18px 35px;
     margin-bottom: 30px;
 } 
 
+.banner img{
+   padding-left: 400px;
+}
 
 /* main */
 main{
@@ -79,20 +83,22 @@ main{
     margin: 0 auto;
 }
 
+section{
+    margin-top: 130px;
+}
+
 /* about section style */
 .about{
     text-align: center;
-    margin-top: 130px;
+   
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
 }
 .section-title{
-
-    
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .banner-description {
@@ -118,3 +124,34 @@ main{
     font-size: 20px;
     color: #474747;
 }
+
+/* What I Do */
+
+.what-i-do{
+   
+    text-align: center;
+}
+.skills-cotainer{
+    display: flex;
+    gap: 24px;
+}
+
+
+.skill{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #757575;
+}
+
+/* resume style */
